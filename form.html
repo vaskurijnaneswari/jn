@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    form{
+        text-align: center;
+        background-color: rgb(37, 192, 231);
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+     h2{
+        text-align: center;
+     }
+     label{
+        display: block;
+       
+     }
+     input[type=text],
+     input[type=tel],
+     input[type=email],
+     input[type="color"]
+     input[type=""]
+     textarea,select{
+        border-radius: 10px;
+     }
+     input[type=submit]{
+     background-color: rgb(143, 202, 5);
+     cursor: pointer;
+     }
+     input[type=submit]:hover{
+        background-color: brown;
+      
+      }  
+     
+    </style>
+    <h2>Registration Form</h2>
+    <form action="https://formspree.io/f/xbjvezww"method="post">
+    <label>Name</label>
+    <input type=""text name="name" required>
+    <label>Phone Number</label>
+    <input type="tel" phone number="phone number" required>
+    <label>Email</label>
+    <input type="email" email="email" required>
+    <input type="image" src="img_submit.gif" alt="Submit" width="50" height="50">
+    <label>Gender</label>
+    <select>
+        <option><value="Male">Male</option>
+        <option><value="Female">Female</option>
+        <option><value="Others">Others</option>
+    </select>
+    <label>Pincode</label>
+    <input type="text" pincode="pincode" required>
+    <label for="favcolor">Select your favoritecolor:</label>
+    <input type="color" id="favcolor" name="favcolor"> 
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><label for="birthdaytime">Birthday (date and time):</label>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime"> 
+    <label for="myfile">Select a file:</label>
+    <input type="file" id="myfile" name="myfile"> 
+    <label for="bdaymonth">Birthday (month and year):</label>
+    <input type="month" id="bdaymonth" name="bdaymonth"> 
+    <p>Choose your favorite Web language:</p> 
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <label for="vol">Volume (between 0 and 50):</label> 
+    <input type="range" id="vol" name="vol" min="0" max="50"><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <label for="vol">Volume (between 0 and 50):</label> 
+    <input type="range" id="vol" name="vol" min="0" max="50"><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label> <br>
+    <label for="vol">Volume (between 0 and 50):</label> 
+    <input type="range" id="vol" name="vol" min="0" max="50"><br>
+    <label for="gsearch">Search Google:</label>
+    <input type="search" id="gsearch" name="gsearch"><br>
+    <label for="week">Select a week:</label>
+    <input type="week" id="week" name="week"><br>
+    <label for="homepage">Add your homepage:</label>
+    <input type="url" id="homepage" name="homepage"><br>
+    <p>select language</p>
+    <input type="checkbox" id="subject1" name=" subject1" value="Tamil">
+    <label for=" subject1"> I know Tamil </label><br>
+    <input type="checkbox" id=" subject2" name=" subject2" value="Telugu">
+    <label for=" subject2"> I know Telugu</label><br>
+    <input type="checkbox" id=" subject3" name=" subject3" value=" English ">
+    <label for=" subject3"> I know Telugu</label><br>
+    <input type="button" onclick="alert('Hello World!')" value="Click Me!"> <br>
+    <input type="submit" value="Submit">
+    <input type="reset">  
+</form>
+<body>
+</html>
